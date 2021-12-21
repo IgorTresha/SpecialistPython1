@@ -10,3 +10,10 @@
 # 1234
 
 # TODO: your code here
+n = int(input("Введите n:"))
+my_digit = int(1)
+start = 1
+while start <= n:
+    print(my_digit)
+    start += 1
+    my_digit = my_digit * 10 + start
