@@ -3,3 +3,7 @@
 # то программа запрашивает ввод снова.
 
 # TODO: your code here
+
+slovo = ""
+while slovo != "хватит":
+    slovo = input("Введите слово:")
