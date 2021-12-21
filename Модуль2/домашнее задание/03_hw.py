@@ -31,3 +31,12 @@
 # 20 199.8 Rub.
 
 # TODO: your code here
+
+
+
+prace = float(input("Введите цену: "))
+i = 1
+# for i in range(1, 21):
+while i <= 20:
+    print("№",i,"", i * prace, "Rub")
+    i += 1
