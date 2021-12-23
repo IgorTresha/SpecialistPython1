@@ -4,7 +4,16 @@
 # * попробуйте решить данную задачу, не преобразуя число к строке
 
 def palindrome(number):
-    pass
+    def palindrome(number):
+    old_num = number
+    new_num = 0
+    while number > 0:
+        new_num = newnum * 10 + number % 10
+        number //= 10
+    return old_num == new_num
+
+
+
 
 
 # Тестируем функцию
@@ -13,3 +22,5 @@ print(palindrome(3443))
 print(palindrome(1234541))
 print(palindrome(1234321))
 print(palindrome(77777))
+
+
